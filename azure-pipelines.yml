@@ -12,7 +12,7 @@ stages:
    jobs:
      - deployment: deploymentJob4
        environment: envionment2
-       pool: Default
+       pool: rokpool
        strategy:
         runOnce:
           deploy:
